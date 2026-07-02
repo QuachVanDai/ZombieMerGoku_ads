@@ -41,6 +41,7 @@ namespace ExampleProject.Gameplay.GameplayCamera
             float elapsed = 0f;
             float fromAngle = startAngle;
             float toAngle = startAngle + (clockwise ? -orbitAngle : orbitAngle);
+            Quaternion fromRotation = transform.rotation;
 
             while (elapsed < duration)
             {
@@ -48,11 +49,11 @@ namespace ExampleProject.Gameplay.GameplayCamera
                 float t = Mathf.Clamp01(elapsed / duration);
                 float easedT = Mathf.SmoothStep(0f, 1f, t);
                 float angle = Mathf.Lerp(fromAngle, toAngle, easedT);
-                ApplyOrbit(target, angle);
+                ApplyOrbit(target, angle, fromRotation, easedT);
                 yield return null;
             }
 
-            ApplyOrbit(target, toAngle);
+            ApplyOrbit(target, toAngle, fromRotation, 1f);
 
             if (resumePlayerFollowOnComplete && playerCameraFollow != null)
                 playerCameraFollow.SetFollowActive(true, true);
@@ -75,7 +76,7 @@ namespace ExampleProject.Gameplay.GameplayCamera
             return transform.parent;
         }
 
-        void ApplyOrbit(Transform target, float angle)
+        void ApplyOrbit(Transform target, float angle, Quaternion fromRotation, float rotationT)
         {
             Vector3 center = target.position + orbitTargetOffset;
             float rad = angle * Mathf.Deg2Rad;
@@ -84,7 +85,10 @@ namespace ExampleProject.Gameplay.GameplayCamera
 
             Vector3 lookDirection = center - transform.position;
             if (lookDirection.sqrMagnitude > 0.0001f)
-                transform.rotation = Quaternion.LookRotation(lookDirection, Vector3.up);
+            {
+                Quaternion targetRotation = Quaternion.LookRotation(lookDirection, Vector3.up);
+                transform.rotation = Quaternion.Slerp(fromRotation, targetRotation, rotationT);
+            }
         }
 
         void DeriveOrbitFromCurrentTransform(Transform target)

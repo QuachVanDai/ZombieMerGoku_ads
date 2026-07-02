@@ -15,6 +15,7 @@ public class MergeMelee : MonoBehaviour
     [SerializeField] UnitSetupData unitSetupData;
     [SerializeField] CreepUnit CreepUnit;
     [SerializeField] AudioClip mergeSound;
+    [SerializeField] Transform psMerge;
     private bool isDragging;
     private Vector3 startPosition;
     private Vector3 offset;
@@ -96,6 +97,8 @@ public class MergeMelee : MonoBehaviour
 
     private void CheckMergeTarget()
     {
+        if (targetMerge != null)
+            targetMerge.psMerge.gameObject.SetActive(false);
         targetMerge = null;
 
         Collider[] hits = Physics.OverlapSphere(transform.position + Vector3.up, mergeRadius);
@@ -114,6 +117,7 @@ public class MergeMelee : MonoBehaviour
                 continue;
 
             targetMerge = other;
+            targetMerge.psMerge.gameObject.SetActive(true);
             return;
         }
     }

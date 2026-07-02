@@ -391,9 +391,10 @@ namespace ExampleProject.Gameplay.Scenes
         }
         IEnumerator HandleArmyIntro()
         {
+            chestCamera.GetComponent<MoveToTarget>()?.Move();
             HideTutorial();
             Player.SetActive(true);
-            yield return new WaitForSeconds(0.4f);
+            yield return new WaitForSeconds(0.38f);
             Debug.Log("HandleArmyIntro");
             SetGruntSlotsVisible(true);
             UseOnlyCamera(armyIntroCamera);
