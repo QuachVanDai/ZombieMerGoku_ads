@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e487b97e1c60ba34dbcc6df50cfaaff0, type: 3}
+  m_Name: RangedZombieUnitData 3
+  m_EditorClassIdentifier: 
+  unitId: 4003
+  unitType: 5
+  localizedName:
+    mTerm: Tank rider zombie
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedDescription:
+    mTerm: A dead soldier, now bound to his armored war tank.
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  unitPrefab: {fileID: 8934092394829387006, guid: ab4507de126694667b971fbb8f933a7d, type: 3}
+  animatorOverride: {fileID: 22100000, guid: cc78cbb402eae43eab9958d39c4f57a5, type: 2}
+  icon: {fileID: 21300000, guid: 384a8e52375fbf545817d12b8b74ab45, type: 3}
+  mesh: {fileID: -8223394998906479427, guid: 49662809e35afae478e98f481367a322, type: 3}
+  material: {fileID: 2100000, guid: ea14668748408f74ab70f12b1db4eb37, type: 2}
+  scale: 1.2
+  rarity: 4
+  health: 20000
+  damage: 3500
+  criticalChance: 0
+  criticalMultiplier: 1.5
+  attackSpeed: 0.8
+  attackRange: 10
+  moveSpeed: 5

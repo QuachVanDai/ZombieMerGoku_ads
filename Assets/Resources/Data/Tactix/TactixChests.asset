@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7ceda43dfbb4ed2899a4b31c4c11e2, type: 3}
+  m_Name: TactixChests
+  m_EditorClassIdentifier: 
+  chestResourceDataList:
+  - {fileID: 11400000, guid: c810f5d70905e422682cd4e4b55cf9f7, type: 2}
+  - {fileID: 11400000, guid: 31633ada4ac8a4d0fa2c1e6d029cd89a, type: 2}
+  - {fileID: 11400000, guid: 2b090622a7d1a40109f456ddc9a1fe71, type: 2}
+  - {fileID: 11400000, guid: 948461a612cd7426e906e96753f638b9, type: 2}
+  - {fileID: 11400000, guid: a63f52d3da5b64ed79302d91f42f4ab4, type: 2}
+  - {fileID: 11400000, guid: 7aa7b6a3e9b1745eabf40fb6fffc811b, type: 2}
+  - {fileID: 11400000, guid: 882c3af4be2a549f48254da877f9572f, type: 2}
+  - {fileID: 11400000, guid: dc233f0f0e88643d4b4d270b719ea694, type: 2}
+  tactixChestsDataFolderPath: Assets/Resources/Data/Tactix/TactixChestData

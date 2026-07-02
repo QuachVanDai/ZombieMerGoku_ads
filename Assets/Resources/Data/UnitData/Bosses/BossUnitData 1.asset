@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e487b97e1c60ba34dbcc6df50cfaaff0, type: 3}
+  m_Name: BossUnitData 1
+  m_EditorClassIdentifier: 
+  unitId: 5001
+  unitType: 5
+  localizedName: 
+  localizedDescription: 
+  unitPrefab: {fileID: 7927108025704529301, guid: e865d28abe11b4777947ce19321f4d9c, type: 3}
+  animatorOverride: {fileID: 22100000, guid: fc5be229ca50e4634b9ce7e775974e2b, type: 2}
+  icon: {fileID: 21300000, guid: e8042f53b17255e478883917bfdcc3af, type: 3}
+  mesh: {fileID: -7821245745688992208, guid: 671093c68c943ca4583a6f9fd0ef4efd, type: 3}
+  material: {fileID: 2100000, guid: f9be95b8dd36eda41b8618e7bcd7f1c1, type: 2}
+  scale: 1.5
+  rarity: 0
+  health: 19000
+  damage: 3000
+  criticalChance: 0
+  criticalMultiplier: 1.5
+  attackSpeed: 1
+  attackRange: 2
+  moveSpeed: 5

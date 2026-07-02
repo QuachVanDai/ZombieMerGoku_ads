@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7c550bb485fdc499afcd054364a652, type: 3}
+  m_Name: SkinData 16
+  m_EditorClassIdentifier: 
+  id: 16
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedName:
+    mTerm: Neon Robot
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  rarity: 2
+  unlockCondition:
+    method: 2
+    value: 30000
+  avatar: {fileID: 21300000, guid: 2d214f91903ca1141b4040017aadf8a9, type: 3}
+  mesh: {fileID: 6429187416437941576, guid: 8d65aa23e9354fa4a89a3b5e54869e66, type: 3}
+  material: {fileID: 2100000, guid: 11a3d707ac7a707489a5d50a159edba1, type: 2}
+  playableAnimatorOverrideController: {fileID: 22100000, guid: 58a8cb0b15f14d74fb43edec8dfc388a, type: 2}
+  displayAnimatorOverrideController: {fileID: 22100000, guid: b97e97c7184b88c4ba99cb8040ed9b25, type: 2}
+  dominantHand: 2
+  buffs:
+  - buffType: 1
+    modifierType: 1
+    value:
+      mantissa: 3
+      exponent: 1

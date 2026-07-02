@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e487b97e1c60ba34dbcc6df50cfaaff0, type: 3}
+  m_Name: RangedZombieUnitData 2
+  m_EditorClassIdentifier: 
+  unitId: 4002
+  unitType: 5
+  localizedName: 
+  localizedDescription: 
+  unitPrefab: {fileID: 8934092394829387006, guid: 470d852af69b3449d820d833be2519c7, type: 3}
+  animatorOverride: {fileID: 22100000, guid: 3796f8e4641254a9fa48eea16cd8fae4, type: 2}
+  icon: {fileID: 21300000, guid: 64c49f8b5048f5b4ea6e73f32bab0b62, type: 3}
+  mesh: {fileID: -5267574338983034777, guid: 8a4aa425c7151d349bc369457a1093db, type: 3}
+  material: {fileID: 2100000, guid: 9fa241e8e7523b846aa3330499d5b0f7, type: 2}
+  scale: 1.6
+  rarity: 1
+  health: 1200
+  damage: 1200
+  criticalChance: 0
+  criticalMultiplier: 1.5
+  attackSpeed: 1.5
+  attackRange: 8
+  moveSpeed: 5

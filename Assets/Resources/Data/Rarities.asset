@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baed740d3a2e4f9438bc6073a5317270, type: 3}
+  m_Name: Rarities
+  m_EditorClassIdentifier: 
+  resourceDataList:
+  - {fileID: 11400000, guid: fc19f9abb68c6d1478ed39304f85bda3, type: 2}
+  - {fileID: 11400000, guid: 4348f5ff5e92e8e43baeb312754f1a57, type: 2}
+  - {fileID: 11400000, guid: cb89c9d5a302e5845b5413ba3c14df5e, type: 2}
+  - {fileID: 11400000, guid: ae19931cbd9ded44c8efb9731bde2178, type: 2}
+  - {fileID: 11400000, guid: 1c3f2771169a9094fb60ceae142ed6f8, type: 2}
+  - {fileID: 11400000, guid: 33ecee025c4e93748b152c648ba5facc, type: 2}
+  - {fileID: 11400000, guid: 0a061e3415fc140019b13084e016e0aa, type: 2}
+  - {fileID: 11400000, guid: b87fc8e96cdbb46279961a80a3e52e31, type: 2}
+  dataFolderPath: Assets/Resources/Data/RaritiyData

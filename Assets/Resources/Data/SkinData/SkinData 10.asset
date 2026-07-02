@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7c550bb485fdc499afcd054364a652, type: 3}
+  m_Name: SkinData 10
+  m_EditorClassIdentifier: 
+  id: 10
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedName:
+    mTerm: Jokker
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  rarity: 2
+  unlockCondition:
+    method: 2
+    value: 30000
+  avatar: {fileID: 21300000, guid: 9b7fb9e59e15ca54fa437202840b1cba, type: 3}
+  mesh: {fileID: -3435987575051989956, guid: 6721cac5d82ae91409467cb03648925a, type: 3}
+  material: {fileID: 2100000, guid: 67bf252837f004743836adc636a8d096, type: 2}
+  playableAnimatorOverrideController: {fileID: 22100000, guid: 0991eafe7cc3f994ea3f5426fbf55245, type: 2}
+  displayAnimatorOverrideController: {fileID: 22100000, guid: 7e56db07e37dead4c9f7fb3d08502190, type: 2}
+  dominantHand: 2
+  buffs:
+  - buffType: 1
+    modifierType: 1
+    value:
+      mantissa: 3
+      exponent: 1

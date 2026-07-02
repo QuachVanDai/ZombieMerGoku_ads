@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e487b97e1c60ba34dbcc6df50cfaaff0, type: 3}
+  m_Name: RangedGruntUnitData 4
+  m_EditorClassIdentifier: 
+  unitId: 2004
+  unitType: 2
+  localizedName: 
+  localizedDescription: 
+  unitPrefab: {fileID: 8934092394829387006, guid: 067b0e267477345c5b95d82fb37505bf, type: 3}
+  animatorOverride: {fileID: 22100000, guid: 66f927a6260ab46de8c4287320671eb6, type: 2}
+  icon: {fileID: 21300000, guid: 34c6668487831ef44b0ff6e6ed54a28c, type: 3}
+  mesh: {fileID: -1267812844801084158, guid: 717d66b2f01c7ae49b07adc189e59808, type: 3}
+  material: {fileID: 2100000, guid: 30470245f2dceee4eb41b96b3879f54d, type: 2}
+  scale: 1
+  rarity: 5
+  health: 75000
+  damage: 10000
+  criticalChance: 0
+  criticalMultiplier: 1.5
+  attackSpeed: 1.2
+  attackRange: 10
+  moveSpeed: 10

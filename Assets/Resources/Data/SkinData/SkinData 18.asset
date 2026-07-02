@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7c550bb485fdc499afcd054364a652, type: 3}
+  m_Name: SkinData 18
+  m_EditorClassIdentifier: 
+  id: 18
+  localizedDescription:
+    mTerm: Referee
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedName:
+    mTerm: Referee
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  rarity: 4
+  unlockCondition:
+    method: 25
+    value: 300
+    bigValue:
+      mantissa: 0
+      exponent: 0
+    skinId: 0
+    unitId: 0
+  avatar: {fileID: 21300000, guid: 43808d1322878ad4faf046f3cba33c57, type: 3}
+  mesh: {fileID: 556391242216128565, guid: ef83a562de202c24f9950f1edc59aa1c, type: 3}
+  material: {fileID: 2100000, guid: 9dbbc00b31cdd8949a59159545673951, type: 2}
+  playableAnimatorOverrideController: {fileID: 22100000, guid: 3ae76348570d93749b57c1c29c117a5e, type: 2}
+  displayAnimatorOverrideController: {fileID: 22100000, guid: 8c9253d8e38abd04bb591c68971083df, type: 2}
+  dominantHand: 2
+  buffs:
+  - buffType: 1
+    modifierType: 1
+    value:
+      mantissa: 5
+      exponent: 2
+  - buffType: 3
+    modifierType: 1
+    value:
+      mantissa: 1
+      exponent: 1
+  - buffType: 4
+    modifierType: 1
+    value:
+      mantissa: 1
+      exponent: -1

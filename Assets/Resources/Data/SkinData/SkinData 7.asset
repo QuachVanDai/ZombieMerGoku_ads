@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7c550bb485fdc499afcd054364a652, type: 3}
+  m_Name: SkinData 7
+  m_EditorClassIdentifier: 
+  id: 7
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedName:
+    mTerm: Fireman
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  rarity: 2
+  unlockCondition:
+    method: 2
+    value: 30000
+  avatar: {fileID: 21300000, guid: 367237b59cbdfed40829e1a12dd6c3b1, type: 3}
+  mesh: {fileID: 1034287329153042325, guid: a3855fae5852fb340941d32b64fef1cd, type: 3}
+  material: {fileID: 2100000, guid: 8af46bfd026eafd4e9fe050280cc1c84, type: 2}
+  playableAnimatorOverrideController: {fileID: 22100000, guid: 180c64f224597e44cbe8f2eaedd32fcc, type: 2}
+  displayAnimatorOverrideController: {fileID: 22100000, guid: 5df14f2f4f028c44aa75cdb2385be845, type: 2}
+  dominantHand: 2
+  buffs:
+  - buffType: 1
+    modifierType: 1
+    value:
+      mantissa: 3
+      exponent: 1

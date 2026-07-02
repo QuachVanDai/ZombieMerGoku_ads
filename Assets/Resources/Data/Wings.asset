@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35fc637f0eb4d6040bce8d047028bb5a, type: 3}
+  m_Name: Wings
+  m_EditorClassIdentifier: 
+  resourceDataList:
+  - {fileID: 11400000, guid: 36c85950eb3a50a41a41eb23f8e65dc8, type: 2}
+  - {fileID: 11400000, guid: baadf09974c58c24cb47638dc56ac151, type: 2}
+  - {fileID: 11400000, guid: aed490e201289504188c9efe9636cec6, type: 2}
+  - {fileID: 11400000, guid: ec2b22cefba42254f9c112b992058fec, type: 2}
+  - {fileID: 11400000, guid: fa6fd2ab8e8c2ce4eb71a922048f784d, type: 2}
+  dataFolderPath: Assets/Resources/Data/WingData

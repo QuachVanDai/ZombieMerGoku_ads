@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ea1f8721b48ac43a583530142dccfe, type: 3}
+  m_Name: EpicRarityData
+  m_EditorClassIdentifier: 
+  rarity: 4
+  localizedRarityName:
+    mTerm: Epic
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  darkMultiplier: 0.5
+  lightMultiplier: 1.5
+  color: {r: 0.7890062, g: 0.18431371, b: 1, a: 1}
+  colorPack:
+    darkMultiplier: 0.5
+    lightMultiplier: 1.5
+    color: {r: 0.7890062, g: 0.18431371, b: 1, a: 1}

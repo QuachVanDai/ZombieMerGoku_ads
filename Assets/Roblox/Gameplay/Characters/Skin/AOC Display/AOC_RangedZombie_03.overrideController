@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AOC_RangedZombie_03
+  m_Controller: {fileID: 9100000, guid: 401c250d9179743409e77a3840a6eccf, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: f5dd637080c45874dab12c946df7e5df, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c43f075007613654a85084f54abd55d5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e34b48c612600854eae91ed7f75ccbf6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f27e9f8177ed6a54e9608660e0d71ddd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f19c66c1c4dfd0147a32a29294fc85d9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 35a5f32ce53a02e448676ada1a4679d1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c684eede1c7e1d5469f92500ee58766d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c684eede1c7e1d5469f92500ee58766d, type: 2}

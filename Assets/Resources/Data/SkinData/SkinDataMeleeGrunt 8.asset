@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7c550bb485fdc499afcd054364a652, type: 3}
+  m_Name: SkinDataMeleeGrunt 8
+  m_EditorClassIdentifier: 
+  id: 1008
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedName:
+    mTerm: Nurse
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  rarity: 3
+  unlockCondition:
+    method: 10
+    value: 0
+  avatar: {fileID: 21300000, guid: 67e7ed7527bfea64c8ff2809699e09dd, type: 3}
+  mesh: {fileID: 5487613599466684004, guid: 1b48654e32ea33d478b3c69111263ea7, type: 3}
+  material: {fileID: 2100000, guid: 0ecd8fa8c1421154abceac0c04887003, type: 2}
+  playableAnimatorOverrideController: {fileID: 22100000, guid: 159cd29f95e014045a4a45caea101395, type: 2}
+  displayAnimatorOverrideController: {fileID: 22100000, guid: 9f844730272b07b4f8299e10cd2ef8c1, type: 2}
+  dominantHand: 2
+  buffs:
+  - buffType: 1
+    modifierType: 1
+    value:
+      mantissa: 1.1
+      exponent: 2

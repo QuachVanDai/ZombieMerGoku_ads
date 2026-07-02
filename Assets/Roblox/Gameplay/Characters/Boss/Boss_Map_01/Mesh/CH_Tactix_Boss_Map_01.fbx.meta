@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: 671093c68c943ca4583a6f9fd0ef4efd
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: f9be95b8dd36eda41b8618e7bcd7f1c1, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: CH_Player_Default(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_CH_Default
+      parentName: CH_Player_Default(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Root
+      parentName: CH_Player_Default(Clone)
+      position: {x: -0.00000001907346, y: 0.49378842, z: -0.00952721}
+      rotation: {x: -0.4917553, y: 0.50811094, z: -0.4917553, w: 0.50811094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Spine
+      parentName: SKEL_Player_Root
+      position: {x: -0.22613889, y: 0.000000014587848, z: 5.0212917e-17}
+      rotation: {x: 0, y: -0, z: -0.00742865, w: 0.9999724}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Neck
+      parentName: SKEL_Player_Spine
+      position: {x: -0.24181978, y: 0.000000033969233, z: -0.000000007206017}
+      rotation: {x: 0.9997671, y: -0.021581473, z: -1.3214841e-18, w: 6.121808e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_Emo_Default
+      parentName: SKEL_Player_Neck
+      position: {x: 1.030303, y: -0.028270928, z: 1.7052621e-16}
+      rotation: {x: -0.49363238, y: 0.5062876, z: 0.49363238, w: 0.5062876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_Emo_Victory
+      parentName: SKEL_Player_Neck
+      position: {x: 1.030303, y: -0.028270928, z: 1.7052621e-16}
+      rotation: {x: -0.49363238, y: 0.5062876, z: 0.49363238, w: 0.5062876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_Emo_Tired
+      parentName: SKEL_Player_Neck
+      position: {x: 1.030303, y: -0.028270928, z: 1.7052621e-16}
+      rotation: {x: -0.49363238, y: 0.5062876, z: 0.49363238, w: 0.5062876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_Emo_Suprised
+      parentName: SKEL_Player_Neck
+      position: {x: 1.030303, y: -0.028270928, z: 1.7052621e-16}
+      rotation: {x: -0.49363238, y: 0.5062876, z: 0.49363238, w: 0.5062876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_Emo_Lose
+      parentName: SKEL_Player_Neck
+      position: {x: 1.030303, y: -0.028270928, z: 1.7052621e-16}
+      rotation: {x: -0.49363238, y: 0.5062876, z: 0.49363238, w: 0.5062876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_Emo_Push
+      parentName: SKEL_Player_Neck
+      position: {x: 1.030303, y: -0.028270928, z: 1.7052621e-16}
+      rotation: {x: -0.49363238, y: 0.5062876, z: 0.49363238, w: 0.5062876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_Emo_Stun
+      parentName: SKEL_Player_Neck
+      position: {x: 1.030303, y: -0.028270928, z: 1.7052621e-16}
+      rotation: {x: -0.49363238, y: 0.5062876, z: 0.49363238, w: 0.5062876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_Emo_Scared
+      parentName: SKEL_Player_Neck
+      position: {x: 1.030303, y: -0.028270928, z: 1.7052621e-16}
+      rotation: {x: -0.49363238, y: 0.5062876, z: 0.49363238, w: 0.5062876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Head
+      parentName: SKEL_Player_Neck
+      position: {x: -0.24975479, y: -3.29354e-16, z: -3.997177e-32}
+      rotation: {x: 0.99987555, y: -0.015778948, z: -9.661818e-19, w: 6.1224726e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_HeadTop
+      parentName: SKEL_Player_Head
+      position: {x: -0.18023746, y: 1.4969849e-16, z: 3.666274e-17}
+      rotation: {x: 0.49843553, y: -0.5015596, z: 0.49843553, w: 0.5015596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Clavicle_Left
+      parentName: SKEL_Player_Spine
+      position: {x: -0.10507853, y: 0.0018764182, z: -0.2276831}
+      rotation: {x: 0.52243245, y: -0.4765127, z: 0.46710908, w: 0.53085697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Arm_01_Left
+      parentName: SKEL_Player_Clavicle_Left
+      position: {x: -0.21977991, y: 0.000000034864872, z: 0.00000001013279}
+      rotation: {x: 0.0014603238, y: -0.028443946, z: 0.05861399, w: 0.9978744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Arm_02_Left
+      parentName: SKEL_Player_Arm_01_Left
+      position: {x: -0.18695654, y: -0.0000031759098, z: 0.000007689455}
+      rotation: {x: 0.0011566587, y: 0.0589655, z: 0.012091987, w: 0.9981862}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Hand_Left
+      parentName: SKEL_Player_Arm_02_Left
+      position: {x: -0.17443931, y: -0.00000031126655, z: -0.0000005041829}
+      rotation: {x: -0.03090097, y: -0.0023518312, z: 0.04904694, w: 0.9983156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Weapon_Left
+      parentName: SKEL_Player_Hand_Left
+      position: {x: -0.35974038, y: 2.0167313e-16, z: 1.1068805e-17}
+      rotation: {x: 0.0017598072, y: 0.70710456, z: -0.7070233, w: 0.010865328}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Clavicle_Right
+      parentName: SKEL_Player_Spine
+      position: {x: -0.1050783, y: 0.0018764104, z: 0.22768289}
+      rotation: {x: -0.5224329, y: 0.47651213, z: 0.46710852, w: 0.53085744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Arm_01_Right
+      parentName: SKEL_Player_Clavicle_Right
+      position: {x: -0.21978045, y: 0.00000003334871, z: 0.000000003427267}
+      rotation: {x: -0.0014603348, y: 0.028444055, z: 0.05861513, w: 0.99787426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Arm_02_Right
+      parentName: SKEL_Player_Arm_01_Right
+      position: {x: -0.18695603, y: -0.0000032355426, z: -0.000007732705}
+      rotation: {x: -0.0011565482, y: -0.058965344, z: 0.012091718, w: 0.9981862}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Hand_Right
+      parentName: SKEL_Player_Arm_02_Right
+      position: {x: -0.17443994, y: -0.00000029294375, z: 0.0000004968382}
+      rotation: {x: 0.030900696, y: 0.0023514626, z: 0.049046494, w: 0.9983156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Weapon_Right
+      parentName: SKEL_Player_Hand_Right
+      position: {x: -0.35974082, y: -1.8102498e-16, z: 4.400236e-18}
+      rotation: {x: -0.70710456, y: 0.0017603238, z: 0.010864812, w: 0.7070233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Leg_01_Left
+      parentName: SKEL_Player_Root
+      position: {x: 0.09827266, y: -0.0054496177, z: -0.2184263}
+      rotation: {x: 0, y: 0, z: 0.9917337, w: 0.12831376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Leg_02_Left
+      parentName: SKEL_Player_Leg_01_Left
+      position: {x: -0.15221432, y: 0.0000029916412, z: 0.000000019073486}
+      rotation: {x: -0.086393446, y: -0.002396691, z: 0.19489378, w: 0.9770092}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Feet_Left
+      parentName: SKEL_Player_Leg_02_Left
+      position: {x: -0.2044309, y: 0.00000008656962, z: 0.0000003398213}
+      rotation: {x: -0.008566297, y: -0.08600132, z: 0.9938266, w: 0.069563635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Butt_Left
+      parentName: SKEL_Player_Root
+      position: {x: -0.02242959, y: 0.25302252, z: -0.19146112}
+      rotation: {x: 0, y: -0, z: -0.0016546961, w: 0.9999986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Leg_01_Right
+      parentName: SKEL_Player_Root
+      position: {x: 0.098273076, y: -0.005449636, z: 0.21842583}
+      rotation: {x: 0, y: 0, z: 0.99173355, w: 0.1283147}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Leg_02_Right
+      parentName: SKEL_Player_Leg_01_Right
+      position: {x: -0.15221357, y: 0.0000029167293, z: 0.000000057220458}
+      rotation: {x: 0.08638109, y: 0.0023967957, z: 0.19489476, w: 0.9770101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Feet_Right
+      parentName: SKEL_Player_Leg_02_Right
+      position: {x: -0.20443168, y: 0.00000021460473, z: -0.00000039797274}
+      rotation: {x: -0.08598912, y: 0.008564983, z: -0.06956354, w: 0.9938277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SKEL_Player_Butt_Right
+      parentName: SKEL_Player_Root
+      position: {x: -0.022429602, y: 0.25302273, z: 0.19146098}
+      rotation: {x: 0, y: 0, z: 0.9999986, w: 0.0016546961}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: SKEL_Roblox_Char_Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 972b72853a03ee344af23a44a0b7f1ed, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

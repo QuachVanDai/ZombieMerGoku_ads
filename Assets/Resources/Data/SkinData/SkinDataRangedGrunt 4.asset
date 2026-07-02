@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7c550bb485fdc499afcd054364a652, type: 3}
+  m_Name: SkinDataRangedGrunt 4
+  m_EditorClassIdentifier: 
+  id: 1104
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedName:
+    mTerm: Red hair
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  rarity: 5
+  unlockCondition:
+    method: 10
+    value: 0
+  avatar: {fileID: 21300000, guid: 34c6668487831ef44b0ff6e6ed54a28c, type: 3}
+  mesh: {fileID: 3585170854917009641, guid: 1837597e24f862e48bc31add68335894, type: 3}
+  material: {fileID: 2100000, guid: e2854ece7a28b894391e3e3973401398, type: 2}
+  playableAnimatorOverrideController: {fileID: 22100000, guid: 0494df435247ef941b67b3d3f22bb0d1, type: 2}
+  displayAnimatorOverrideController: {fileID: 22100000, guid: 7761984070530734781a33ae7d897675, type: 2}
+  dominantHand: 2
+  buffs:
+  - buffType: 4
+    modifierType: 1
+    value:
+      mantissa: 7
+      exponent: -2

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3886671325878868738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2430165039876404005, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_Name
+      value: PS_Tactix_LootBox_Open_Green Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3154203834702218698, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.3844644
+      objectReference: {fileID: 0}
+    - target: {fileID: 3154203834702218698, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3180904408048191999, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584013432768629521, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.30267355
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584013432768629521, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245434151525280622, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.38427565
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245434151525280622, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245434151525280622, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 0.31703475
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245434151525280622, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe9e4cf3248f6fb49be8e9c3cc3aa6d1, type: 3}

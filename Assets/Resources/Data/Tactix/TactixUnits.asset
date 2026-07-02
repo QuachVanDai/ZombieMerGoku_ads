@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74283a2930442b7a3e81dd4631fc6c, type: 3}
+  m_Name: TactixUnits
+  m_EditorClassIdentifier: 
+  unitTactixesDataList:
+  - {fileID: 11400000, guid: c72afef44a5eb472ba3bee71848da14c, type: 2}
+  - {fileID: 11400000, guid: ff096c088377a4c7fa5b02a347181221, type: 2}
+  - {fileID: 11400000, guid: d89fb37e2791140fd93091b4392df874, type: 2}
+  - {fileID: 11400000, guid: a7eb0fef330ad46c2832e6fa0d6f52f4, type: 2}
+  - {fileID: 11400000, guid: 6a136edd395714c6393c29e69a7ec257, type: 2}
+  - {fileID: 11400000, guid: 24ac9813c2c00422ead949171ab95e2c, type: 2}
+  - {fileID: 11400000, guid: 12a078585b243426aaf5326bb4d30584, type: 2}
+  - {fileID: 11400000, guid: da8dd356bea0b4960b063fbc0c58a572, type: 2}
+  - {fileID: 11400000, guid: 164477beaf6794f318727f53a3eb638a, type: 2}
+  - {fileID: 11400000, guid: a5e728972811948d39f97f6638b1d48c, type: 2}
+  - {fileID: 11400000, guid: 653c156b53e7945369db0dd7dcf8304e, type: 2}
+  - {fileID: 11400000, guid: cfab13444b7bf4f3fa16ee7faafbf0fa, type: 2}
+  - {fileID: 11400000, guid: 817c83b1e83fd4f63998d21f27bc8929, type: 2}
+  - {fileID: 11400000, guid: e3ba877cec8fe46ecb949b937ceaf6b1, type: 2}
+  - {fileID: 11400000, guid: 31cbe31513be44935bf94406ce8e5bde, type: 2}
+  unitTactixesDataFolderPath: Assets/Resources/Data/Tactix/UnitTactixes

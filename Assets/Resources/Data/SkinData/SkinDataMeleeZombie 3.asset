@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7c550bb485fdc499afcd054364a652, type: 3}
+  m_Name: SkinDataMeleeZombie 3
+  m_EditorClassIdentifier: 
+  id: 2003
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedName:
+    mTerm: Clicker
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  rarity: 4
+  unlockCondition:
+    method: 10
+    value: 0
+  avatar: {fileID: 21300000, guid: b0fc522cefdce974aa834cd74ff16595, type: 3}
+  mesh: {fileID: 3614997291453450425, guid: 1bc0ff47f4b194149bf828d484e36c95, type: 3}
+  material: {fileID: 2100000, guid: be2fa54c9a4a5ec4297bd3e776b268fb, type: 2}
+  playableAnimatorOverrideController: {fileID: 22100000, guid: 51c5b7ac36643084f924d0e4cd95987b, type: 2}
+  displayAnimatorOverrideController: {fileID: 22100000, guid: c77e0a7a8095ecb48b4d3b961b962a38, type: 2}
+  dominantHand: 2
+  buffs:
+  - buffType: 1
+    modifierType: 1
+    value:
+      mantissa: 1.5
+      exponent: 2

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e487b97e1c60ba34dbcc6df50cfaaff0, type: 3}
+  m_Name: MeleeGruntUnitData 8
+  m_EditorClassIdentifier: 
+  unitId: 1008
+  unitType: 1
+  localizedName: 
+  localizedDescription: 
+  unitPrefab: {fileID: 4816809377809368559, guid: 07edca38eeb2842668cc3979ecf1558d, type: 3}
+  animatorOverride: {fileID: 22100000, guid: ff3acbd0d551240ceb93fe76926abe97, type: 2}
+  icon: {fileID: 21300000, guid: 67e7ed7527bfea64c8ff2809699e09dd, type: 3}
+  mesh: {fileID: -1267812844801084158, guid: 717d66b2f01c7ae49b07adc189e59808, type: 3}
+  material: {fileID: 2100000, guid: a88cd8615ceb51e40826b09cecdf06b2, type: 2}
+  scale: 1
+  rarity: 3
+  health: 50000
+  damage: 1000
+  criticalChance: 10
+  criticalMultiplier: 1.5
+  attackSpeed: 3
+  attackRange: 2
+  moveSpeed: 6

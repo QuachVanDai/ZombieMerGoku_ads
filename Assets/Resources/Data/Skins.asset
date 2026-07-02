@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409665f822ad39c4883f7fdeb1c33388, type: 3}
+  m_Name: Skins
+  m_EditorClassIdentifier: 
+  resourceDataList:
+  - {fileID: 11400000, guid: d9710a4510e22e94f8c08c9f97beaaee, type: 2}
+  - {fileID: 11400000, guid: 3757a6caf1837184a897ec4a3d080f5b, type: 2}
+  - {fileID: 11400000, guid: 666bb26680b06a64e92d9e73a1a8ce36, type: 2}
+  - {fileID: 11400000, guid: 1329550b7fd4e2e4db89b3a5432ff04d, type: 2}
+  - {fileID: 11400000, guid: 18bc52d00c27ee24d97e48a09610c032, type: 2}
+  - {fileID: 11400000, guid: 84e2f7277ae1d2b47a36b709fc79ef68, type: 2}
+  - {fileID: 11400000, guid: 43a071597a1bd744195a161aab73e3b1, type: 2}
+  - {fileID: 11400000, guid: 32d1e98a3995d824cb00885ea518c6cb, type: 2}
+  - {fileID: 11400000, guid: afe7f719f43160842a03ac1cd5fe073d, type: 2}
+  - {fileID: 11400000, guid: f58e87d15242c458e8b2db9ab7ecd562, type: 2}
+  - {fileID: 11400000, guid: cfab0b21b2c5b234c961f4718995ba2f, type: 2}
+  - {fileID: 11400000, guid: 7557bfa1d9aebea409fa2c8fdcf764ac, type: 2}
+  - {fileID: 11400000, guid: f19c00a3d83c8f74186fcee5d414a550, type: 2}
+  - {fileID: 11400000, guid: 372f6c26c56fe2c44954c94436075a4a, type: 2}
+  - {fileID: 11400000, guid: 67fc796ed92300147ac4e23d3cc597de, type: 2}
+  - {fileID: 11400000, guid: 5b2dbb996cf837f45bc4f5e70433d4f4, type: 2}
+  - {fileID: 11400000, guid: 2f04c2db371d9794dad8642d64359905, type: 2}
+  - {fileID: 11400000, guid: 2c763962555a74b498a5bdbc6dd47c49, type: 2}
+  - {fileID: 11400000, guid: cbf17acecb0a5074980c2bfe4fede1da, type: 2}
+  - {fileID: 11400000, guid: e885d71e9bf95a945bdf4bb465245152, type: 2}
+  - {fileID: 11400000, guid: dc0ae1425a5db85428a325c4feeb978b, type: 2}
+  - {fileID: 11400000, guid: c30e140429119fa41aac9570b0e60594, type: 2}
+  - {fileID: 11400000, guid: f1d962f98bce3b74c869efc51aebc85c, type: 2}
+  - {fileID: 11400000, guid: 282552f86e282c44ab641ba7bfe87365, type: 2}
+  - {fileID: 11400000, guid: 605fac49f70ce3f498ea46ca44e70492, type: 2}
+  - {fileID: 11400000, guid: bf9fe5c4694b89e48aad0880bd7a2fc5, type: 2}
+  - {fileID: 11400000, guid: fd82139b6c203ea46be984f364fda75b, type: 2}
+  - {fileID: 11400000, guid: f3d71bf811a6dab4490b671bd7b92847, type: 2}
+  - {fileID: 11400000, guid: 9385015bdb64067478a5ab167822f88a, type: 2}
+  defaultSkinId: 1
+  ui3DSkinDisplayPrefab: {fileID: 3838621930051372445, guid: 38a3c104fda676a4e9574d29ad11870d, type: 3}
+  dataFolderPath: Assets/Resources/Data/SkinData

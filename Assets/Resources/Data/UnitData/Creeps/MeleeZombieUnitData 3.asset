@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e487b97e1c60ba34dbcc6df50cfaaff0, type: 3}
+  m_Name: MeleeZombieUnitData 3
+  m_EditorClassIdentifier: 
+  unitId: 3003
+  unitType: 3
+  race: 0
+  localizedName:
+    mTerm: Clicker
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  unitPrefab: {fileID: 7927108025704529301, guid: fa3b8b227d3834197a9deb5183f6a91c, type: 3}
+  animatorOverride: {fileID: 22100000, guid: 276d754b37cba40f2a21201aa0d97176, type: 2}
+  icon: {fileID: 21300000, guid: b0fc522cefdce974aa834cd74ff16595, type: 3}
+  mesh: {fileID: 3614997291453450425, guid: 1bc0ff47f4b194149bf828d484e36c95, type: 3}
+  material: {fileID: 2100000, guid: be2fa54c9a4a5ec4297bd3e776b268fb, type: 2}
+  scale: 1.2
+  rarity: 0
+  health: 1500
+  damage: 600
+  criticalChance: 0
+  criticalMultiplier: 1.5
+  attackSpeed: 1.5
+  attackRange: 2
+  moveSpeed: 7

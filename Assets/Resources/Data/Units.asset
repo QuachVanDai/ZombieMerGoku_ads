@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ea9995e2cb52842938706c4ef2f856, type: 3}
+  m_Name: Units
+  m_EditorClassIdentifier: 
+  creepResourceDataList:
+  - {fileID: 11400000, guid: c862c13dc846747cdaae8a64afa8804b, type: 2}
+  - {fileID: 11400000, guid: 72e8dde6c8b7c49758f8bffa964fbb80, type: 2}
+  - {fileID: 11400000, guid: 2e96276fbd9082f4f99010784615ad61, type: 2}
+  - {fileID: 11400000, guid: fc146955d7986314ca9d786a300f1716, type: 2}
+  - {fileID: 11400000, guid: 293a44f7d9041f14dbf665054e0ff739, type: 2}
+  - {fileID: 11400000, guid: c7ad136f778b52f4091c1c10d017b7fd, type: 2}
+  - {fileID: 11400000, guid: f7a1a39459c1db249b068900bc29512a, type: 2}
+  - {fileID: 11400000, guid: f05e10c76064484499ce7c1cf3cba56b, type: 2}
+  - {fileID: 11400000, guid: d021eed5d616e754986e62453b799047, type: 2}
+  - {fileID: 11400000, guid: cff91fa7cc22251488a99049b8b17b0e, type: 2}
+  - {fileID: 11400000, guid: 17e935a734878f944996cb3c433cf9ba, type: 2}
+  towerResourceDataList:
+  - {fileID: 11400000, guid: 9640e780bd2894644acfc9b954c4ea8a, type: 2}
+  - {fileID: 11400000, guid: 2c0a3bb377a3c40a982aeee980727900, type: 2}
+  - {fileID: 11400000, guid: 78ac759350d8e4f248d28e3f3245ca63, type: 2}
+  - {fileID: 11400000, guid: afae14fbfd9d142bca382e8ede57e15b, type: 2}
+  bossResourceDataList:
+  - {fileID: 11400000, guid: 6e8c44d9635d54732921cfadc8f3067a, type: 2}
+  - {fileID: 11400000, guid: 2345da227a1d74b2e940453461e84b49, type: 2}
+  creepDataFolderPath: Assets/Resources/Data/UnitData/Creeps
+  towerDataFolderPath: Assets/Resources/Data/UnitData/Towers
+  bossDataFolderPath: Assets/Resources/Data/UnitData/Bosses

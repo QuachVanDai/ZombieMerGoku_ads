@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acaaadf6938f5b74cbaeb1bbc658675e, type: 3}
+  m_Name: LevelData 1
+  m_EditorClassIdentifier: 
+  levelNumber: 1
+  coinWinLevel: 1000
+  gemWinLevel: 0
+  levelPhase:
+  - waves:
+    - units:
+      - unitId: 3001
+        quantity: 0
+      - unitId: 4001
+        quantity: 6
+      waveBuffs:
+      - buffType: 2
+        modifierType: 3
+        value: 2
+      - buffType: 1
+        modifierType: 3
+        value: 1
+    phaseTowerBuffs:
+    - buffType: 1
+      modifierType: 3
+      value: 2
+    - buffType: 2
+      modifierType: 3
+      value: 3
+    towerUnitId: 6001
+  - waves:
+    - units:
+      - unitId: 5001
+        quantity: 1
+      waveBuffs:
+      - buffType: 2
+        modifierType: 3
+        value: 5
+      - buffType: 1
+        modifierType: 3
+        value: 2
+    phaseTowerBuffs: []
+    towerUnitId: 6004
+  levelZombieBuffs:
+  - buffType: 2
+    modifierType: 3
+    value: 1.5
+  - buffType: 1
+    modifierType: 3
+    value: 1.5
+  levelTowerBuffs:
+  - buffType: 2
+    modifierType: 3
+    value: 10

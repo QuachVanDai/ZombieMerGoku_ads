@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe5e59cefba246409bce7e6870204e2, type: 3}
+  m_Name: MeeleeGruntWeapon 4
+  m_EditorClassIdentifier: 
+  id: 1004
+  icon: {fileID: 21300000, guid: 7fbe929b220210a40a0c914d64d85a5d, type: 3}
+  prefab: {fileID: 2189293072424803115, guid: 4a7fc240e33714b4ba04a82713f275c8, type: 3}
+  localizedName:
+    mTerm: Pan
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  unlockCondition:
+    method: 10
+    value: 0
+  rarity: 1
+  buffs:
+  - buffType: 1
+    modifierType: 1
+    value:
+      mantissa: 5
+      exponent: 1

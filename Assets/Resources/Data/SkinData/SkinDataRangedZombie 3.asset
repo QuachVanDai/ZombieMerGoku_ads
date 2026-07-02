@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7c550bb485fdc499afcd054364a652, type: 3}
+  m_Name: SkinDataRangedZombie 3
+  m_EditorClassIdentifier: 
+  id: 2103
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedName:
+    mTerm: Tank rider zombie
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  rarity: 5
+  unlockCondition:
+    method: 10
+    value: 0
+    bigValue:
+      mantissa: 0
+      exponent: 0
+    skinId: 0
+    unitId: 0
+  avatar: {fileID: 21300000, guid: 384a8e52375fbf545817d12b8b74ab45, type: 3}
+  mesh: {fileID: -8223394998906479427, guid: 49662809e35afae478e98f481367a322, type: 3}
+  material: {fileID: 2100000, guid: ea14668748408f74ab70f12b1db4eb37, type: 2}
+  playableAnimatorOverrideController: {fileID: 22100000, guid: 5ce6e3a9ea5867f44ad358437468a74f, type: 2}
+  displayAnimatorOverrideController: {fileID: 22100000, guid: 61aec4cb0380e7945a6613f66da66dcf, type: 2}
+  dominantHand: 2
+  buffs:
+  - buffType: 1
+    modifierType: 1
+    value:
+      mantissa: 3
+      exponent: 2
+  - buffType: 3
+    modifierType: 2
+    value:
+      mantissa: 1
+      exponent: 1
+  - buffType: 4
+    modifierType: 2
+    value:
+      mantissa: 1
+      exponent: 1

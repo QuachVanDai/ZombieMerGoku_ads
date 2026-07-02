@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f32cc5794554016aaee68ff621a91e, type: 3}
+  m_Name: TactixChestData 2
+  m_EditorClassIdentifier: 
+  chestId: 2002
+  localizedName:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  chestPrefab: {fileID: 81896538927729006, guid: 3a3de79d820444d459de96c31131ca0a, type: 3}
+  chestVFXOpenPrefab: {fileID: 1461863106728896551, guid: 799a8ab41334d25419cb4d56b2667c7d, type: 3}
+  chestLidPos: {x: 0.0000000428667, y: 0.5202678, z: -0.4011741}
+  icon: {fileID: 0}
+  color: {r: 0.21568628, g: 0.52156866, b: 0.22745098, a: 1}
+  mesh:
+  - {fileID: -3045379105786775924, guid: 9dd0b709740ee46459e105435f468a68, type: 3}
+  - {fileID: -1343928480405521918, guid: 9dd0b709740ee46459e105435f468a68, type: 3}
+  material: {fileID: 2100000, guid: 03aa49a8128534a47aaba2d31542f0f3, type: 2}
+  rarity: 2
+  spawnChance: 30
+  rarityChancesList:
+  - rarity: 1
+    chance: 0
+  - rarity: 2
+    chance: 100
+  - rarity: 3
+    chance: 0
+  - rarity: 4
+    chance: 0
+  - rarity: 5
+    chance: 0
+  - rarity: 6
+    chance: 0
+  - rarity: 7
+    chance: 0
+  - rarity: 8
+    chance: 0
+  baseCooldown: 30
+  timePerSkip: 20
+  cost: 9000
+  gemCostToSkip: 20

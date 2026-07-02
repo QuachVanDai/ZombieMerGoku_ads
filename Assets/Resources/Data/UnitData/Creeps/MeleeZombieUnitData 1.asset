@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e487b97e1c60ba34dbcc6df50cfaaff0, type: 3}
+  m_Name: MeleeZombieUnitData 1
+  m_EditorClassIdentifier: 
+  unitId: 3001
+  unitType: 3
+  localizedName: 
+  localizedDescription: 
+  unitPrefab: {fileID: 7927108025704529301, guid: fa3b8b227d3834197a9deb5183f6a91c, type: 3}
+  animatorOverride: {fileID: 22100000, guid: 60f03ec5e3cc44b859eacab39682ae63, type: 2}
+  icon: {fileID: 21300000, guid: b36d376ff1676024fa94c137208536b8, type: 3}
+  mesh: {fileID: 6965445407687990579, guid: 250017fc497cdae42b21957c18151766, type: 3}
+  material: {fileID: 2100000, guid: ff883d695132e1449ae4543f5adc799a, type: 2}
+  scale: 1
+  rarity: 1
+  health: 600
+  damage: 200
+  criticalChance: 0
+  criticalMultiplier: 1.5
+  attackSpeed: 1.2
+  attackRange: 2
+  moveSpeed: 5

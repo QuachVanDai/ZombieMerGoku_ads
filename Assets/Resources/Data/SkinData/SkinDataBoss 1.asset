@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7c550bb485fdc499afcd054364a652, type: 3}
+  m_Name: SkinDataBoss 1
+  m_EditorClassIdentifier: 
+  id: 3001
+  localizedDescription:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  localizedName:
+    mTerm: Nailhead
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  rarity: 5
+  unlockCondition:
+    method: 10
+    value: 0
+  avatar: {fileID: 21300000, guid: e8042f53b17255e478883917bfdcc3af, type: 3}
+  mesh: {fileID: -7821245745688992208, guid: 671093c68c943ca4583a6f9fd0ef4efd, type: 3}
+  material: {fileID: 2100000, guid: f9be95b8dd36eda41b8618e7bcd7f1c1, type: 2}
+  playableAnimatorOverrideController: {fileID: 22100000, guid: c01aadda0df277046bcf335df25e4645, type: 2}
+  displayAnimatorOverrideController: {fileID: 22100000, guid: 2282cded04bf7364c8c100bfd3d19c37, type: 2}
+  dominantHand: 2
+  buffs:
+  - buffType: 1
+    modifierType: 1
+    value:
+      mantissa: 5
+      exponent: 2
+  - buffType: 3
+    modifierType: 1
+    value:
+      mantissa: 1
+      exponent: 1

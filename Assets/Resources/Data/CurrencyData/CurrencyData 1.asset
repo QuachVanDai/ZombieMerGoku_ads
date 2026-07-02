@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6393cbac2176a8c429ec564f35f9fa66, type: 3}
+  m_Name: CurrencyData 1
+  m_EditorClassIdentifier: 
+  type: 2
+  icon: {fileID: 21300000, guid: 4e65632e89eecba4cb7e3d444cf14250, type: 3}
+  frame: {fileID: 21300000, guid: c772c383c930e404caf28e69c0bf4171, type: 3}
+  backgroundColor: {r: 0.20784315, g: 0.8196079, b: 0.9490197, a: 1}
+  textColor: {r: 0.39607847, g: 0.9921569, b: 0.9960785, a: 1}
+  outlineColor: {r: 0.011764707, g: 0.07450981, b: 0.27450982, a: 1}
+  collectEffect: {fileID: -8794623951336108380, guid: 899d9499dfcf2af4faee1d21e07d1eb0, type: 3}

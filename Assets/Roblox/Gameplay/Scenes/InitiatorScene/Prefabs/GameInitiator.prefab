@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1337286772046915859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4357860624352008837}
+  - component: {fileID: 8807784665735074009}
+  m_Layer: 0
+  m_Name: GameInitiator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4357860624352008837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337286772046915859}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8807784665735074009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337286772046915859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9451bd10dfdce8e47af33ebedef7dbc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keepObjectPrefab: {fileID: 7514082524847690661, guid: 201d07412d795dd438634ac700aee54e, type: 3}
+  gameManagerPrefab: {fileID: 6295823616302522787, guid: c488d0d9a65f2674aac1a28ef25c3d32, type: 3}
+  uiManagerPrefab: {fileID: 7069861534101401608, guid: a785bc3f67cd3d54f8a299fe93cda4a6, type: 3}
+  loadSceneManagerPrefab: {fileID: 7248729597448346517, guid: 96ccb3ae3985b34489d94defd06c9e8a, type: 3}
+  notificationsManagerPrefab: {fileID: 1478368914957348209, guid: 86d9912a7ca7cf9428c7b1e9a675d44c, type: 3}
+  musicSystemPrefab: {fileID: 3328470954523980001, guid: 951b0c572ff73804a8aa78ab0a3aadf7, type: 3}
+  soundSystemPrefab: {fileID: 8878930968888895925, guid: add89179e11047e42859eea3250895a3, type: 3}
+  vibrationSystemPrefab: {fileID: 7387665531671180316, guid: f08cc23d8b45655418dd07d4a7cb3761, type: 3}
+  languageSystemPrefab: {fileID: 1613159651569711200, guid: 976e10943bfb008429b53f72c728f485, type: 3}
+  graphicSystemPrefab: {fileID: 5459192130871977267, guid: 1d9fe858a9feb774b8713e1598c5a5ef, type: 3}
+  internetConnectivityPrefab: {fileID: 1695692674742044515, guid: 7aee1e18b0d121549b1c9e7f0fc50a4d, type: 3}
+  eventSystemPrefab: {fileID: 277801664183516639, guid: 8b80e09e2a5eb1d45a1d6e85da1b8383, type: 3}
+  uiCameraPrefab: {fileID: 5196613797821141292, guid: 7f84e3283de4c2248b46191ce29a9f25, type: 3}
+  sharedCanvasPrefab: {fileID: 8463804405837607543, guid: 1ae6a5cc5406294499374dd395cfe38b, type: 3}
+  ingameDebugConsolePrefab: {fileID: 11452418, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
+  appsFlyerObjectScriptPrefab: {fileID: 4405976200006927252, guid: 0bfe3b149145747cc92dc53bb4df4e9b, type: 3}
+  onegameSDKPrefab: {fileID: 5953108496152321487, guid: 5c4e7cb23d604c941b8fbac0ba478096, type: 3}
+  netMonobehaviorPrefab: {fileID: 5096671272125758052, guid: d72f481b6a9c1f84099be155fe44c274, type: 3}
+  aTTPrefab: {fileID: 1581124552440595230, guid: 2ce28160d1ac61443b3bb091e318d727, type: 3}
